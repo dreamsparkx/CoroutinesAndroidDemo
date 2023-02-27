@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
     }
     private fun showProgressDialog() {
         customProgressDialog = Dialog(this@MainActivity)
-        customProgressDialog?.setContentView(R.layout.dailog_custom_progress)
+        customProgressDialog?.setContentView(R.layout.dialog_custom_progress)
         customProgressDialog?.show()
     }
     private fun cancelProgressDialog() {
